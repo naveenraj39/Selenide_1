@@ -1,12 +1,11 @@
-package com.triomics;
+package Test;
 
 import com.smartbear.zephyrscale.junit.annotation.TestCase;
 import com.triomics.framework.type.test.Functional;
 import com.triomics.framework.type.test.Smoke;
-import com.triomics.tests.adc.onboarding.BaseTest;
 
-import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 
 import java.time.Duration;

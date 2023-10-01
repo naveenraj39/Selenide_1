@@ -1,7 +1,8 @@
-package com.triomics.tests.adc.onboarding;
+package Test;
 
-import org.junit.Test;
+
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
 import com.triomics.framework.TmxHubrisWreckerConfigLoader;
 import com.triomics.framework.common.AppConfigurations;
