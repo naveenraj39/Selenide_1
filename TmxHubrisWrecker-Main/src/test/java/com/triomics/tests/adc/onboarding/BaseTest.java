@@ -1,5 +1,6 @@
 package com.triomics.tests.adc.onboarding;
 
+import org.junit.Test;
 import org.junit.jupiter.api.BeforeAll;
 
 import com.triomics.framework.TmxHubrisWreckerConfigLoader;
@@ -17,6 +18,7 @@ import java.util.Properties;
 // @Log4j2
 public class BaseTest{
     @BeforeAll
+    @Test
     public void beforeAll() throws IOException {
         Properties config = new Properties();
     	FileInputStream file = new FileInputStream (".//config/config.properties");

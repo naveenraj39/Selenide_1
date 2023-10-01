@@ -1,8 +1,9 @@
-package com.triomics.tests.adc.onboarding;
+package com.triomics;
 
 import com.smartbear.zephyrscale.junit.annotation.TestCase;
 import com.triomics.framework.type.test.Functional;
 import com.triomics.framework.type.test.Smoke;
+import com.triomics.tests.adc.onboarding.BaseTest;
 
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
@@ -23,14 +24,14 @@ public class LoginViaPlatformTest extends BaseTest {
 
 
     @Smoke
-    
-    @TestCase(key = "TRIO-T529")
+    @Test
+ 
     public void login() {
         title().equalsIgnoreCase("Harmony");
         $(".MuiTypography-root.MuiTypography-subtitle1").shouldHave(text("Select Organization")).exists();
        
     }
-
+  @Test
     @Functional
     
     public void login_as_platform_admin() throws InterruptedException {

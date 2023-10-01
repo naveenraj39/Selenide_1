@@ -6,8 +6,8 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import com.triomics.LoginViaPlatformTest;
 import com.triomics.tests.adc.onboarding.BaseTest;
-import com.triomics.tests.adc.onboarding.LoginViaPlatformTest;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
